@@ -14,7 +14,13 @@ function checkHandler() {
 
   var sum = calculateSum(dob);
 
+  if(sum && dob)
+
   compareValues(sum, luckyNumber.value);
+
+  else
+
+  outputBox.innerText = "Please enter values in both fields 😡"
 
 }
 
